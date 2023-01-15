@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from './app/screens/Home.js';
 import Second from './app/screens/Second.js';
+import CarbonFootPrint from './app/src/CarbonFootPrint'
 
 const Stack = createNativeStackNavigator();
 export default function App() {
